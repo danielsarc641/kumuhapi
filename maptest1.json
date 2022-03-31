@@ -1,12 +1,540 @@
 {
+  "version": 1,
+  "name": "TEST1",
+  "description": "",
+  "proxyImages": true,
+  "defaultMap": "map-l6Y5ieIX",
+  "defaultPerspective": null,
+  "attributeRelevance": {},
+  "attributes": [
+    {
+      "_id": "attr-QhYv2kH2",
+      "name": "Cantidad",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-4Vdy9zFX",
+      "name": "Cantidad 2",
+      "format": "number",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-yPPsGyZW",
+      "name": "Connection Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-Vo0hvtCu",
+      "name": "Description",
+      "format": "text",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "none",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-Y96a9rHR",
+      "name": "Element Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [
+        "Componente",
+        "Sector"
+      ],
+      "sort": false,
+      "cluster": true
+    },
+    {
+      "_id": "attr-wQ2uIXq3",
+      "name": "Label",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-bniGpmAQ",
+      "name": "Loop Type",
+      "format": "string",
+      "private": false,
+      "limit": 1,
+      "category": "General",
+      "prompt": "list",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": false
+    },
+    {
+      "_id": "attr-UiXFLXOT",
+      "name": "Tags",
+      "format": "string",
+      "private": false,
+      "limit": "none",
+      "category": "General",
+      "prompt": "autocomplete",
+      "locked": false,
+      "values": [],
+      "sort": false,
+      "cluster": true
+    }
+  ],
   "elements": [
-    {"label": "A"},
-    {"label": "B"},
-    {"label": "C"}
+    {
+      "_id": "elem-3CPEjQGU",
+      "attributes": {
+        "label": "pob"
+      }
+    },
+    {
+      "_id": "elem-3aty5z0F",
+      "attributes": {
+        "label": "Grupo edad 6 a 10"
+      }
+    },
+    {
+      "_id": "elem-BA9sr0OE",
+      "attributes": {
+        "label": "Escuintla",
+        "cantidad": "500"
+      }
+    },
+    {
+      "_id": "elem-GgY1dTSV",
+      "attributes": {
+        "label": "C",
+        "cantidad": "8"
+      }
+    },
+    {
+      "_id": "elem-IYJLls6k",
+      "attributes": {
+        "label": "Todos los Sectores",
+        "element type": "Sector"
+      }
+    },
+    {
+      "_id": "elem-M5I0YdVw",
+      "attributes": {
+        "label": "B",
+        "cantidad": "8"
+      }
+    },
+    {
+      "_id": "elem-X6jXlmp3",
+      "attributes": {
+        "label": "Componente Población",
+        "cantidad": "1000",
+        "element type": "Componente",
+        "cantidad 2": "1000"
+      }
+    },
+    {
+      "_id": "elem-YX4TiK4c",
+      "attributes": {
+        "label": "LO"
+      }
+    },
+    {
+      "_id": "elem-ZaDPhEkA",
+      "attributes": {
+        "label": "Sector Manufactura Avanzada",
+        "element type": "Sector"
+      }
+    },
+    {
+      "_id": "elem-b27ojJcP",
+      "attributes": {
+        "label": "Sector Manufactura ligera",
+        "element type": "Sector",
+        "cantidad": "85",
+        "cantidad 2": "25",
+        "description": "DESCRIPCION DESCRITA",
+        "tags": [
+          "DA"
+        ]
+      }
+    },
+    {
+      "_id": "elem-baX1lXN6",
+      "attributes": {
+        "label": "Grupo edad 11 a 16"
+      }
+    },
+    {
+      "_id": "elem-fPisGzqK",
+      "attributes": {
+        "label": "Sector Logistica",
+        "element type": "Sector"
+      }
+    },
+    {
+      "_id": "elem-hgnzxDHz",
+      "attributes": {
+        "label": "Grupo edad 1 a 5"
+      }
+    },
+    {
+      "_id": "elem-qUQSkbgv",
+      "attributes": {
+        "label": "A",
+        "cantidad": "8"
+      }
+    },
+    {
+      "_id": "elem-tjhR34y2",
+      "attributes": {
+        "label": "Educación"
+      }
+    }
   ],
   "connections": [
-    {"from": "A", "to": "B"},
-    {"from": "A", "to": "C"},
-    {"from": "B", "to": "C"}
+    {
+      "_id": "conn-0RP9P0rN",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-fPisGzqK",
+      "to": "elem-X6jXlmp3"
+    },
+    {
+      "_id": "conn-1ANYp69s",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-b27ojJcP",
+      "to": "elem-3CPEjQGU"
+    },
+    {
+      "_id": "conn-1BQkeUXm",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-IYJLls6k",
+      "to": "elem-fPisGzqK"
+    },
+    {
+      "_id": "conn-6b2tiUNR",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-IYJLls6k",
+      "to": "elem-ZaDPhEkA"
+    },
+    {
+      "_id": "conn-7ozBw0VK",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "cantidad": "8"
+      },
+      "from": "elem-qUQSkbgv",
+      "to": "elem-M5I0YdVw"
+    },
+    {
+      "_id": "conn-AlqO5psT",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "cantidad": "9"
+      },
+      "from": "elem-X6jXlmp3",
+      "to": "elem-BA9sr0OE"
+    },
+    {
+      "_id": "conn-H0yZOO7I",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-IYJLls6k",
+      "to": "elem-b27ojJcP"
+    },
+    {
+      "_id": "conn-Lq5WrRuu",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-BA9sr0OE",
+      "to": "elem-baX1lXN6"
+    },
+    {
+      "_id": "conn-Ns2QXpuh",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "cantidad": "8"
+      },
+      "from": "elem-qUQSkbgv",
+      "to": "elem-GgY1dTSV"
+    },
+    {
+      "_id": "conn-Srr62780",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-BA9sr0OE",
+      "to": "elem-3aty5z0F"
+    },
+    {
+      "_id": "conn-XExUcROV",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-ZaDPhEkA",
+      "to": "elem-X6jXlmp3"
+    },
+    {
+      "_id": "conn-XTHcPfKE",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-IYJLls6k",
+      "to": "elem-YX4TiK4c"
+    },
+    {
+      "_id": "conn-fc6GqpoK",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-b27ojJcP",
+      "to": "elem-X6jXlmp3"
+    },
+    {
+      "_id": "conn-xoqDaYnV",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "cantidad": "8"
+      },
+      "from": "elem-M5I0YdVw",
+      "to": "elem-GgY1dTSV"
+    },
+    {
+      "_id": "conn-z3i6wMe0",
+      "direction": "undirected",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-BA9sr0OE",
+      "to": "elem-hgnzxDHz"
+    }
+  ],
+  "loops": [],
+  "maps": [
+    {
+      "_id": "map-l6Y5ieIX",
+      "name": "Untitled map",
+      "description": "",
+      "scale": 1,
+      "center": {
+        "x": 0,
+        "y": 0
+      },
+      "defaultPerspective": "pers-c8MS6hGZ",
+      "defaultElementBehavior": "floating",
+      "defaultConnectionDirection": "undirected",
+      "elements": [
+        {
+          "_id": "node-FcV9baG5",
+          "position": {
+            "x": 210.09177426835757,
+            "y": -277.6092181475769
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-hgnzxDHz"
+        },
+        {
+          "_id": "node-H5H7wmEa",
+          "position": {
+            "x": -20.656732112612904,
+            "y": 98.84459951286718
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-fPisGzqK"
+        },
+        {
+          "_id": "node-QfdOt9it",
+          "position": {
+            "x": 1.2377069366651967,
+            "y": -173.35987640810703
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-3aty5z0F"
+        },
+        {
+          "_id": "node-caaNOS0Q",
+          "position": {
+            "x": -241.89419976137933,
+            "y": -1.0039867565064933
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-b27ojJcP"
+        },
+        {
+          "_id": "node-dsrRYfZh",
+          "position": {
+            "x": 386.84548514141005,
+            "y": -177.48712320668812
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-baX1lXN6"
+        },
+        {
+          "_id": "node-gCXHY5UD",
+          "position": {
+            "x": 241.12377874929857,
+            "y": 333.9001031366682
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-IYJLls6k"
+        },
+        {
+          "_id": "node-jjYzle4m",
+          "position": {
+            "x": 231.54237459798304,
+            "y": -82.17034760758959
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-BA9sr0OE"
+        },
+        {
+          "_id": "node-xoN0mgX9",
+          "position": {
+            "x": 234.27153846666084,
+            "y": 38.62346443322656
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-X6jXlmp3"
+        },
+        {
+          "_id": "node-xqDWG62r",
+          "position": {
+            "x": 133.6272737408607,
+            "y": 168.2620378183721
+          },
+          "pinned": true,
+          "style": {},
+          "element": "elem-ZaDPhEkA"
+        }
+      ],
+      "connections": [
+        {
+          "_id": "edge-4AXdTqoa",
+          "style": {},
+          "connection": "conn-6b2tiUNR"
+        },
+        {
+          "_id": "edge-6GCxgRUb",
+          "style": {},
+          "connection": "conn-Lq5WrRuu"
+        },
+        {
+          "_id": "edge-9iKwVVsP",
+          "style": {},
+          "connection": "conn-0RP9P0rN"
+        },
+        {
+          "_id": "edge-NAxpSXQT",
+          "style": {},
+          "connection": "conn-Srr62780"
+        },
+        {
+          "_id": "edge-QGGLqHka",
+          "style": {},
+          "connection": "conn-z3i6wMe0"
+        },
+        {
+          "_id": "edge-fxt3VzN9",
+          "style": {},
+          "connection": "conn-fc6GqpoK"
+        },
+        {
+          "_id": "edge-jwdOnvax",
+          "style": {},
+          "connection": "conn-1BQkeUXm"
+        },
+        {
+          "_id": "edge-ppkbWrfS",
+          "style": {},
+          "connection": "conn-XExUcROV"
+        },
+        {
+          "_id": "edge-wIN1Vrp5",
+          "style": {},
+          "connection": "conn-H0yZOO7I"
+        },
+        {
+          "_id": "edge-wlYNTM2k",
+          "style": {},
+          "connection": "conn-AlqO5psT"
+        }
+      ],
+      "loops": []
+    }
+  ],
+  "perspectives": [
+    {
+      "_id": "pers-c8MS6hGZ",
+      "name": "Untitled view",
+      "style": "@settings {\n  template: big-data;\n}\n\n"
+    }
   ]
 }
